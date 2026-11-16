@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Levy Janai — Full-stack Developer</title>
+  <meta name="description" content="Levy Janai is a full-stack developer building secure, production-ready web apps with Next.js, TypeScript and the modern web platform.">
+  <meta name="color-scheme" content="dark light">
+  <meta name="theme-color" content="#0b0b0c">
+
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Levy Janai — Full-stack Developer">
+  <meta property="og:description" content="Selected work: secure, production-ready web apps.">
+  <meta property="og:url" content="https://mrrjanai.github.io/">
+  <meta property="og:image" content="https://mrrjanai.github.io/assets/levpriv/levpriv.png">
+
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Geist:wght@400;500;600&family=Geist+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip" href="#work">Skip to work</a>
+
+  <header class="site-header">
+    <div class="wrap header-row">
+      <a href="#top" class="mark" aria-label="Levy Janai, home">LJ<span>.</span></a>
+      <nav aria-label="Main">
+        <a href="#work">Work</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero wrap">
+      <p class="eyebrow"><span class="dot" aria-hidden="true"></span> Full-stack developer</p>
+      <h1>Levy Janai</h1>
+      <p class="lede">I build web apps end to end, from the database and API to the last pixel, and I care about the parts most people skip: <em>security, edge cases, and shipping it for real.</em></p>
+      <div class="hero-links">
+        <a class="btn btn-solid" href="#work">See my work</a>
+        <a class="btn" href="https://github.com/mrrjanai" rel="me">GitHub</a>
+        <a class="btn" href="mailto:mrrjanai@gmail.com">Email me</a>
+      </div>
+    </section>
+
+    <section id="work" class="section wrap" aria-labelledby="work-title">
+      <div class="section-head">
+        <h2 id="work-title">Selected work</h2>
+        <p class="count" id="project-count"></p>
+      </div>
+      <div id="projects" class="projects"></div>
+      <noscript><p>Projects need JavaScript to display. You can browse them on <a href="https://github.com/mrrjanai">GitHub</a>.</p></noscript>
+      <p class="more-soon">More projects on the way.</p>
+    </section>
+
+    <section id="about" class="section wrap" aria-labelledby="about-title">
+      <div class="section-head"><h2 id="about-title">About</h2></div>
+      <div class="about-grid">
+        <div class="about-text">
+          <p>I'm a full-stack developer who likes owning a product from the first schema to the deployed URL. My projects are real, live, and used. I build them to handle the unhappy paths, not just the demo.</p>
+          <p>When something breaks, I dig until I understand <em>why</em>. My LevPriv case study is a good example: a "platform bug" that turned out to be a one-word configuration mismatch.</p>
+        </div>
+        <div class="toolkit">
+          <h3>Toolkit</h3>
+          <ul>
+            <li>TypeScript</li><li>React</li><li>Next.js</li><li>Node.js</li>
+            <li>Tailwind CSS</li><li>Redis</li><li>Vercel</li><li>Sentry</li><li>Git</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section wrap contact" aria-labelledby="contact-title">
+      <h2 id="contact-title">Let's build something.</h2>
+      <p>Open to roles, freelance work and collaborations.</p>
+      <a class="email" href="mailto:mrrjanai@gmail.com">mrrjanai@gmail.com</a>
+      <div class="hero-links">
+        <a class="btn" href="https://github.com/mrrjanai" rel="me">github.com/mrrjanai</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="wrap site-footer">
+    <span>© <span id="year">2026</span> Levy Janai</span>
+    <a href="#top">Back to top ↑</a>
+  </footer>
+
+  <script src="projects.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>
